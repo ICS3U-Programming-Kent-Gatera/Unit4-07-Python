@@ -5,11 +5,14 @@
 
 
 def main():
+    # I defined the integers in the range as int for readability.
     for int in range(1000, 2000, 1):
+        # for every 5 numbers a new line will be created.
         if int % 5 == 0:
             print(int)
             print()
             continue
+        # I used the parameter "end= " so that print does not start a new line.
         print(int, end=" ")
 
 
